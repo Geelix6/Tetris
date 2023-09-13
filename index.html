@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tetris</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="game-controls">
+      <div class="grid">
+        <p class="grid-foreground">Game Paused</p>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <div class="bottom-controls">
+        <button class="control-button pause" title="Pause the game">
+          <svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="0 0 320 512">
+            <path
+              fill="#fff"
+              d="M48 64C21.5 64 0 85.5 0 112V400c0 26.5 21.5 48 48 48H80c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48H48zm192 0c-26.5 0-48 21.5-48 48V400c0 26.5 21.5 48 48 48h32c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48H240z"
+            />
+          </svg>
+        </button>
+        <button class="control-button restart" title="Restart the game">
+          <svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="0 0 512 512">
+            <path
+              fill="#fff"
+              d="M386.3 160H336c-17.7 0-32 14.3-32 32s14.3 32 32 32H464c17.7 0 32-14.3 32-32V64c0-17.7-14.3-32-32-32s-32 14.3-32 32v51.2L414.4 97.6c-87.5-87.5-229.3-87.5-316.8 0s-87.5 229.3 0 316.8s229.3 87.5 316.8 0c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0c-62.5 62.5-163.8 62.5-226.3 0s-62.5-163.8 0-226.3s163.8-62.5 226.3 0L386.3 160z"
+            />
+          </svg>
+        </button>
+        <button class="hints" title="Read rules about this game and learn controls">How to play?</button>
+      </div>
+    </div>
+
+    <div class="game-info">
+      <p class="next">Next</p>
+      <div class="grid-show-next">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <div class="score-container">
+        <p>Score</p>
+        <p class="score">0</p>
+      </div>
+      <div class="level-container">
+        <p>Level</p>
+        <p class="level">5</p>
+        <div class="level-settings">
+          <button class="change-level" data-gamelevel="decrease" title="Decrease the speed of the game">−</button>
+          <button class="change-level" data-gamelevel="increase" title="Increase the speed of the game">+</button>
+        </div>
+      </div>
+    </div>
+
+    <div hidden class="how-to-play">
+      <svg class="how-to-play-close" viewBox="-0.5 0 25 25" xmlns="http://www.w3.org/2000/svg">
+        <path d="M3 21.32L21 3.32001" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M3 3.32001L21 21.32" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+      </svg>
+      <div class="how-to-play-info-container">
+        <h2 class="how-to-play-title">How to play</h2>
+        <p>- Figures called tetromino will constantly fall from the top of the field</p>
+        <p>- When you completely fill a line, it is deleted, and all the lines above fall into the vacant space</p>
+        <p>- When the tetromino has no place to fall on the field, you will lose</p>
+        <p>- You can change the level of the game. Higher level = More points! Try to score as much as you can!</p>
+      </div>
+      <div class="how-to-play-info-container">
+        <h4 class="how-to-play-subtitle">Keyboard controls</h4>
+        <p><b>Arrow Left</b> - Moves tetromino one cell to the left</p>
+        <p><b>Arrow Right</b> - Moves tetromino one cell to the right</p>
+        <p><b>Arrow Down</b> - Moves tetromino one cell down</p>
+        <p><b>Arrow Up</b> - Rotates tetromino</p>
+        <p><b>Space</b> - Drops tetromino instantly</p>
+        <p>Key <b>«−»</b> - Decreases game level (Min - Level 1)</p>
+        <p>Key <b>«=»</b> - Increases game level (Max - Level 9)</p>
+        <p><b>Escape</b> - Pauses the game</p>
+      </div>
+      <div class="how-to-play-info-container">
+        <h4 class="how-to-play-subtitle">Touch controls</h4>
+        <p><b>Swipe Left</b> - Moves tetromino left following your finger</p>
+        <p><b>Swipe Right</b> - Moves tetromino right following your finger</p>
+        <p><b>Swipe Down slowly</b> - Moves tetromino down following your finger</p>
+        <p><b>Swipe Down quickly</b> - Drops tetromino instantly</p>
+        <p><b>Tap</b> - Rotates tetromino</p>
+      </div>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"
+      integrity="sha512-UXumZrZNiOwnTcZSHLOfcTs0aos2MzBWHXOHOuB0J/R44QB0dwY5JgfbvljXcklVf65Gc4El6RjZ+lnwd2az2g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="js/script.js" type="module"></script>
+  </body>
+</html>
