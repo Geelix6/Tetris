@@ -5,6 +5,8 @@
 }
 
 body {
+  touch-action: none;
+  -ms-touch-action: none;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -252,6 +254,7 @@ body {
 }
 
 .change-level {
+  position: relative;
   height: 3vh;
   width: 3vh;
   border-radius: 50%;
@@ -261,6 +264,25 @@ body {
   background-color: rgba(77, 91, 102, 0.36);
   color: #fff;
   cursor: pointer;
+}
+.change-level::after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  height: 12%;
+  background-color: #fff;
+}
+.change-level[data-gamelevel="increase"]::before {
+  position: absolute;
+  right: 25%;
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  height: 12%;
+  transform: rotate(90deg);
+  background-color: #fff;
 }
 
 .change-level:first-child {

@@ -14,6 +14,7 @@ let requestId;
 let timeoutId;
 
 document.addEventListener("visibilitychange", () => {
+  if (document.visibilityState == "visible") return;
   !tetris.isGameOver && !tetris.isGamePaused && pauseGame();
 });
 
